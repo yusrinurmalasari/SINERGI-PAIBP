@@ -1,0 +1,536 @@
+{
+  "spreadsheetName": "SINERGI-PAIBP",
+  "initializedTabs": [
+    "Users Guru",
+    "User Orangtua",
+    "Data_Siswa",
+    "Jadwal_Pelajaran",
+    "Absensi",
+    "Nilai",
+    "Arsip_Soal",
+    "Jurnal_Harian",
+    "Catatan_Siswa",
+    "Sertifikat",
+    "Evaluasi setor hafalan",
+    "Tugas"
+  ],
+  "lastSetupAt": "2026-11-21T10:12:27.652Z",
+  "teacherProfile": {
+    "nama": "Yusri Nurmalasari, S.Pd.I., M.Pd.",
+    "nip": "19890412 201903 2 011",
+    "sekolah": "SDN Harapan Mulia 01",
+    "email": "yusrinurmalasari49@guru.sd.belajar.id",
+    "alamat": "Jl. Pendidikan Islam No. 45, Kec. Sukamaju, Kota Bandung",
+    "tiktok": "https://tiktok.com/@yusri.paibp",
+    "youtube": "https://youtube.com/@sinergipaibp",
+    "whatsapp": "6281234567890",
+    "fotoUrl": "/src/assets/images/teacher_avatar_1795255653444.jpg"
+  },
+  "users_guru": [
+    {
+      "UserID": "G-001",
+      "Username": "yusri",
+      "Password": "123",
+      "NamaGuru": "Yusri Nurmalasari, S.Pd.I.",
+      "Mapel": "PAIBP",
+      "Role": "Admin Guru"
+    },
+    {
+      "UserID": "G-002",
+      "Username": "ahmad_paibp",
+      "Password": "123",
+      "NamaGuru": "Ahmad Fauzan, S.Ag.",
+      "Mapel": "PAIBP",
+      "Role": "Guru PAIBP"
+    }
+  ],
+  "user_orangtua": [
+    {
+      "UserID": "O-001",
+      "Username": "0123456789",
+      "Password": "123"
+    },
+    {
+      "UserID": "O-002",
+      "Username": "0123456790",
+      "Password": "123"
+    },
+    {
+      "UserID": "O-003",
+      "Username": "0123456791",
+      "Password": "123"
+    },
+    {
+      "UserID": "O-004",
+      "Username": "0123456792",
+      "Password": "123"
+    },
+    {
+      "UserID": "O-005",
+      "Username": "0123456793",
+      "Password": "123"
+    }
+  ],
+  "data_siswa": [
+    {
+      "NISN": "0123456789",
+      "NamaSiswa": "Aisyah Putri Ramadhani",
+      "Kelas": "V-A",
+      "JenisKelamin": "P",
+      "KontakOrtu": "081298765432",
+      "FotoSiswa": "/src/assets/images/student_avatar_1795255655017.jpg"
+    },
+    {
+      "NISN": "0123456790",
+      "NamaSiswa": "Muhammad Fatih Al-Ghazali",
+      "Kelas": "V-A",
+      "JenisKelamin": "L",
+      "KontakOrtu": "081344556677",
+      "FotoSiswa": ""
+    },
+    {
+      "NISN": "0123456791",
+      "NamaSiswa": "Nabila Zahra Khairunnisa",
+      "Kelas": "V-B",
+      "JenisKelamin": "P",
+      "KontakOrtu": "085611223344",
+      "FotoSiswa": ""
+    },
+    {
+      "NISN": "0123456792",
+      "NamaSiswa": "Rizky Pratama Hidayat",
+      "Kelas": "VI-A",
+      "JenisKelamin": "L",
+      "KontakOrtu": "087722334455",
+      "FotoSiswa": ""
+    },
+    {
+      "NISN": "0123456793",
+      "NamaSiswa": "Siti Salma Azzahra",
+      "Kelas": "VI-A",
+      "JenisKelamin": "P",
+      "KontakOrtu": "081933445566",
+      "FotoSiswa": ""
+    }
+  ],
+  "jadwal_pelajaran": [
+    {
+      "IDJadwal": "JDW-01",
+      "Hari": "Senin",
+      "Jam": "07:30 - 09:15",
+      "Kelas": "V-A"
+    },
+    {
+      "IDJadwal": "JDW-02",
+      "Hari": "Selasa",
+      "Jam": "09:30 - 11:15",
+      "Kelas": "V-B"
+    },
+    {
+      "IDJadwal": "JDW-03",
+      "Hari": "Rabu",
+      "Jam": "07:30 - 09:15",
+      "Kelas": "VI-A"
+    },
+    {
+      "IDJadwal": "JDW-04",
+      "Hari": "Kamis",
+      "Jam": "10:00 - 11:30",
+      "Kelas": "VI-B"
+    }
+  ],
+  "absensi": [
+    {
+      "IDAbsensi": "ABS-001",
+      "Tanggal": "2026-11-02",
+      "NISN": "0123456789",
+      "NamaSiswa": "Aisyah Putri Ramadhani",
+      "Kelas": "V-A",
+      "Status": "Hadir",
+      "Keterangan": "Tepat waktu"
+    },
+    {
+      "IDAbsensi": "ABS-002",
+      "Tanggal": "2026-11-02",
+      "NISN": "0123456790",
+      "NamaSiswa": "Muhammad Fatih Al-Ghazali",
+      "Kelas": "V-A",
+      "Status": "Hadir",
+      "Keterangan": "Tepat waktu"
+    },
+    {
+      "IDAbsensi": "ABS-003",
+      "Tanggal": "2026-11-03",
+      "NISN": "0123456791",
+      "NamaSiswa": "Nabila Zahra Khairunnisa",
+      "Kelas": "V-B",
+      "Status": "Izin",
+      "Keterangan": "Acara keluarga"
+    },
+    {
+      "IDAbsensi": "ABS-004",
+      "Tanggal": "2026-11-04",
+      "NISN": "0123456792",
+      "NamaSiswa": "Rizky Pratama Hidayat",
+      "Kelas": "VI-A",
+      "Status": "Hadir",
+      "Keterangan": "Aktif berdiskusi"
+    },
+    {
+      "IDAbsensi": "ABS-005",
+      "Tanggal": "2026-11-04",
+      "NISN": "0123456793",
+      "NamaSiswa": "Siti Salma Azzahra",
+      "Kelas": "VI-A",
+      "Status": "Sakit",
+      "Keterangan": "Surat keterangan orangtua"
+    },
+    {
+      "IDAbsensi": "ABS-006",
+      "Tanggal": "2026-11-09",
+      "NISN": "0123456789",
+      "NamaSiswa": "Aisyah Putri Ramadhani",
+      "Kelas": "V-A",
+      "Status": "Hadir",
+      "Keterangan": "Tepat waktu"
+    },
+    {
+      "IDAbsensi": "ABS-007",
+      "Tanggal": "2026-11-09",
+      "NISN": "0123456790",
+      "NamaSiswa": "Muhammad Fatih Al-Ghazali",
+      "Kelas": "V-A",
+      "Status": "Hadir",
+      "Keterangan": "Tepat waktu"
+    },
+    {
+      "IDAbsensi": "ABS-008",
+      "Tanggal": "2026-11-10",
+      "NISN": "0123456791",
+      "NamaSiswa": "Nabila Zahra Khairunnisa",
+      "Kelas": "V-B",
+      "Status": "Hadir",
+      "Keterangan": "Tepat waktu"
+    },
+    {
+      "IDAbsensi": "ABS-009",
+      "Tanggal": "2026-11-11",
+      "NISN": "0123456792",
+      "NamaSiswa": "Rizky Pratama Hidayat",
+      "Kelas": "VI-A",
+      "Status": "Alpha",
+      "Keterangan": "Tanpa keterangan"
+    },
+    {
+      "IDAbsensi": "ABS-010",
+      "Tanggal": "2026-11-11",
+      "NISN": "0123456793",
+      "NamaSiswa": "Siti Salma Azzahra",
+      "Kelas": "VI-A",
+      "Status": "Hadir",
+      "Keterangan": "Tepat waktu"
+    },
+    {
+      "IDAbsensi": "ABS-011",
+      "Tanggal": "2026-10-12",
+      "NISN": "0123456789",
+      "NamaSiswa": "Aisyah Putri Ramadhani",
+      "Kelas": "V-A",
+      "Status": "Hadir",
+      "Keterangan": "Hadir penuh"
+    },
+    {
+      "IDAbsensi": "ABS-012",
+      "Tanggal": "2026-10-12",
+      "NISN": "0123456790",
+      "NamaSiswa": "Muhammad Fatih Al-Ghazali",
+      "Kelas": "V-A",
+      "Status": "Sakit",
+      "Keterangan": "Demam ringan"
+    },
+    {
+      "IDAbsensi": "ABS-013",
+      "Tanggal": "2025-11-10",
+      "NISN": "0123456789",
+      "NamaSiswa": "Aisyah Putri Ramadhani",
+      "Kelas": "V-A",
+      "Status": "Hadir",
+      "Keterangan": "Semester lalu"
+    }
+  ],
+  "nilai": [
+    {
+      "IDNilai": "NIL-001",
+      "NISN": "0123456789",
+      "NamaSiswa": "Aisyah Putri Ramadhani",
+      "Kelas": "V-A",
+      "Mapel": "PAIBP",
+      "JenisEvaluasi": "Ulangan Harian 1 (Asmaul Husna)",
+      "Nilai": 94,
+      "Semester": "Ganjil 2026/2027"
+    },
+    {
+      "IDNilai": "NIL-002",
+      "NISN": "0123456789",
+      "NamaSiswa": "Aisyah Putri Ramadhani",
+      "Kelas": "V-A",
+      "Mapel": "PAIBP",
+      "JenisEvaluasi": "PTS Ganjil",
+      "Nilai": 92,
+      "Semester": "Ganjil 2026/2027"
+    },
+    {
+      "IDNilai": "NIL-003",
+      "NISN": "0123456790",
+      "NamaSiswa": "Muhammad Fatih Al-Ghazali",
+      "Kelas": "V-A",
+      "Mapel": "PAIBP",
+      "JenisEvaluasi": "Ulangan Harian 1 (Asmaul Husna)",
+      "Nilai": 88,
+      "Semester": "Ganjil 2026/2027"
+    },
+    {
+      "IDNilai": "NIL-004",
+      "NISN": "0123456791",
+      "NamaSiswa": "Nabila Zahra Khairunnisa",
+      "Kelas": "V-B",
+      "Mapel": "PAIBP",
+      "JenisEvaluasi": "PTS Ganjil",
+      "Nilai": 90,
+      "Semester": "Ganjil 2026/2027"
+    },
+    {
+      "IDNilai": "NIL-005",
+      "NISN": "0123456792",
+      "NamaSiswa": "Rizky Pratama Hidayat",
+      "Kelas": "VI-A",
+      "Mapel": "PAIBP",
+      "JenisEvaluasi": "Praktik Ibadah Sholat",
+      "Nilai": 85,
+      "Semester": "Ganjil 2026/2027"
+    },
+    {
+      "IDNilai": "NIL-006",
+      "NISN": "0123456793",
+      "NamaSiswa": "Siti Salma Azzahra",
+      "Kelas": "VI-A",
+      "Mapel": "PAIBP",
+      "JenisEvaluasi": "PTS Ganjil",
+      "Nilai": 96,
+      "Semester": "Ganjil 2026/2027"
+    }
+  ],
+  "arsip_soal": [
+    {
+      "IDSoal": "SOL-001",
+      "Mapel": "PAIBP",
+      "Kelas": "V-A",
+      "Topik": "Menyayangi Anak Yatim & QS. Al-Maun",
+      "LinkDriveSoal": "https://drive.google.com/file/d/contoh-soal-al-maun",
+      "TanggalUpload": "2026-10-15"
+    },
+    {
+      "IDSoal": "SOL-002",
+      "Mapel": "PAIBP",
+      "Kelas": "VI-A",
+      "Topik": "Ketentuan Zakat Fitrah dan Zakat Mal",
+      "LinkDriveSoal": "https://drive.google.com/file/d/contoh-soal-zakat",
+      "TanggalUpload": "2026-11-01"
+    }
+  ],
+  "jurnal_harian": [
+    {
+      "IDJurnal": "JRN-001",
+      "Tanggal": "2026-11-11",
+      "Kelas": "V-A",
+      "Mapel": "PAIBP",
+      "Materi": "Makna Asmaul Husna Al-Qawiyyu & Al-Qayyum",
+      "CatatanKejadian": "Sebagian besar siswa antusias menghafal arti Asmaul Husna",
+      "Tindakan": "Memberikan penguatan hafalan berpasangan"
+    },
+    {
+      "IDJurnal": "JRN-002",
+      "Tanggal": "2026-11-12",
+      "Kelas": "VI-A",
+      "Mapel": "PAIBP",
+      "Materi": "Hikmah Berinfak dan Bersedekah",
+      "CatatanKejadian": "Diskusi kelompok berjalan kondusif",
+      "Tindakan": "Menugaskan proyek infak pekanan kelas"
+    }
+  ],
+  "catatan_siswa": [
+    {
+      "IDCatatan": "CAT-001",
+      "Tanggal": "2026-11-08",
+      "NISN": "0123456789",
+      "NamaSiswa": "Aisyah Putri Ramadhani",
+      "Kelas": "V-A",
+      "JenisCatatan": "Prestasi Sikap",
+      "Detail": "Membantu teman yang kesulitan membaca huruf hijaiyah saat jam istirahat."
+    },
+    {
+      "IDCatatan": "CAT-002",
+      "Tanggal": "2026-11-11",
+      "NISN": "0123456792",
+      "NamaSiswa": "Rizky Pratama Hidayat",
+      "Kelas": "VI-A",
+      "JenisCatatan": "Pembinaan Kedisiplinan",
+      "Detail": "Perlu pendampingan kehadiran tepat waktu di jam pertama."
+    }
+  ],
+  "sertifikat": [
+    {
+      "IDSertifikat": "SRT-001",
+      "NISN": "0123456789",
+      "NamaSiswa": "Aisyah Putri Ramadhani",
+      "Kelas": "V-A",
+      "NamaPenghargaan": "Juara 1 MHQ Tingkat Kecamatan",
+      "Tanggal": "2026-10-28",
+      "LinkFile": "https://drive.google.com/file/d/contoh-sertifikat-mhq"
+    },
+    {
+      "IDSertifikat": "SRT-002",
+      "NISN": "0123456793",
+      "NamaSiswa": "Siti Salma Azzahra",
+      "Kelas": "VI-A",
+      "NamaPenghargaan": "Siswa Teladan Adab & Sholat Dhuha",
+      "Tanggal": "2026-11-05",
+      "LinkFile": "https://drive.google.com/file/d/contoh-sertifikat-adab"
+    }
+  ],
+  "evaluasi_hafalan": [
+    {
+      "IDHafalan": "HAF-001",
+      "NISN": "0123456789",
+      "HariTanggal": "Senin, 2026-11-09",
+      "NamaSiswa": "Aisyah Putri Ramadhani",
+      "Kelas": "V-A",
+      "NamaSurah": "QS. Al-Maun (Ayat 1-7)",
+      "Nilai": 95,
+      "CatatanEvaluasi": "Makhraj dan panjang pendek (mad) sangat baik dan lancar."
+    },
+    {
+      "IDHafalan": "HAF-002",
+      "NISN": "0123456789",
+      "HariTanggal": "Senin, 2026-11-16",
+      "NamaSiswa": "Aisyah Putri Ramadhani",
+      "Kelas": "V-A",
+      "NamaSurah": "QS. At-Tin (Ayat 1-8)",
+      "Nilai": 93,
+      "CatatanEvaluasi": "Tajwid ikhfa dan ghunnah tepat, terus dipertahankan."
+    },
+    {
+      "IDHafalan": "HAF-003",
+      "NISN": "0123456790",
+      "HariTanggal": "Senin, 2026-11-16",
+      "NamaSiswa": "Muhammad Fatih Al-Ghazali",
+      "Kelas": "V-A",
+      "NamaSurah": "QS. Al-Maun (Ayat 1-7)",
+      "Nilai": 88,
+      "CatatanEvaluasi": "Lancar, perlu sedikit perbaikan pada qalqalah ayat 3."
+    },
+    {
+      "IDHafalan": "HAF-004",
+      "NISN": "0123456791",
+      "HariTanggal": "Selasa, 2026-11-17",
+      "NamaSiswa": "Nabila Zahra Khairunnisa",
+      "Kelas": "V-B",
+      "NamaSurah": "QS. Ad-Dhuha (Ayat 1-11)",
+      "Nilai": 91,
+      "CatatanEvaluasi": "Bacaan tartil dan tenang."
+    },
+    {
+      "IDHafalan": "HAF-005",
+      "NISN": "0123456793",
+      "HariTanggal": "Rabu, 2026-11-18",
+      "NamaSiswa": "Siti Salma Azzahra",
+      "Kelas": "VI-A",
+      "NamaSurah": "QS. Al-Alaq (Ayat 1-19)",
+      "Nilai": 97,
+      "CatatanEvaluasi": "Mutqin, fasih, dan suara jelas."
+    }
+  ],
+  "tugas": [
+    {
+      "IDTugas": "TGS-004",
+      "TanggalBuat": "2026-11-19",
+      "Kelas": "V-A",
+      "Mapel": "PAIBP",
+      "JudulTugas": "Hafalan Doa Sebelum & Sesudah Wudhu",
+      "Deskripsi": "Setorkan rekaman audio hafalan doa sebelum dan sesudah wudhu beserta artinya.",
+      "Tenggat": "2026-11-23",
+      "LinkMateri": "https://drive.google.com/file/d/doa-wudhu",
+      "NISN_Pengumpul": "0123456790",
+      "NamaSiswa": "Muhammad Fatih Al-Ghazali",
+      "LinkPengumpulan": "",
+      "TanggalKumpul": "",
+      "StatusPengumpulan": "Belum Dikumpulkan",
+      "NilaiTugas": "",
+      "CatatanGuru": ""
+    },
+    {
+      "IDTugas": "TGS-001",
+      "TanggalBuat": "2026-11-14",
+      "Kelas": "V-A",
+      "Mapel": "PAIBP",
+      "JudulTugas": "Resume Hikmah Kisah Keteladanan Nabi Ibrahim AS",
+      "Deskripsi": "Tuliskan 3 hikmah utama keteladanan Nabi Ibrahim AS di buku tugas atau Google Docs lalu unggah tautan dokumen/foto.",
+      "Tenggat": "2026-11-25",
+      "LinkMateri": "https://drive.google.com/file/d/materi-nabi-ibrahim",
+      "NISN_Pengumpul": "0123456789",
+      "NamaSiswa": "Aisyah Putri Ramadhani",
+      "LinkPengumpulan": "https://drive.google.com/file/d/tugas-aisyah-ibrahim",
+      "TanggalKumpul": "2026-11-18",
+      "StatusPengumpulan": "Dinilai",
+      "NilaiTugas": "95",
+      "CatatanGuru": "Penjelasan sangat runtut dan tulisan rapi."
+    },
+    {
+      "IDTugas": "TGS-002",
+      "TanggalBuat": "2026-11-18",
+      "Kelas": "VI-A",
+      "Mapel": "PAIBP",
+      "JudulTugas": "Poster Digital Adab Bertetangga dalam Islam",
+      "Deskripsi": "Buat poster sederhana berisi minimal 4 adab bertetangga sesuai ajaran Rasulullah SAW.",
+      "Tenggat": "2026-11-28",
+      "LinkMateri": "https://drive.google.com/file/d/panduan-poster-adab",
+      "NISN_Pengumpul": "0123456793",
+      "NamaSiswa": "Siti Salma Azzahra",
+      "LinkPengumpulan": "https://drive.google.com/file/d/poster-salma",
+      "TanggalKumpul": "2026-11-20",
+      "StatusPengumpulan": "Sudah Dikumpulkan",
+      "NilaiTugas": "",
+      "CatatanGuru": "Menunggu penilaian guru."
+    },
+    {
+      "IDTugas": "TGS-003",
+      "TanggalBuat": "2026-11-20",
+      "Kelas": "V-B",
+      "Mapel": "PAIBP",
+      "JudulTugas": "Praktik Wudhu Tertib (Video Singkat)",
+      "Deskripsi": "Rekam praktik tata cara wudhu sesuai rukun dan sunnah lalu kumpulkan tautan Google Drive.",
+      "Tenggat": "2026-11-30",
+      "LinkMateri": "https://drive.google.com/file/d/panduan-wudhu",
+      "NISN_Pengumpul": "",
+      "NamaSiswa": "",
+      "LinkPengumpulan": "",
+      "TanggalKumpul": "",
+      "StatusPengumpulan": "Belum Dikumpulkan",
+      "NilaiTugas": "",
+      "CatatanGuru": ""
+    }
+  ],
+  "whatsapp_logs": [
+    {
+      "IDLog": "WA-448625",
+      "TanggalKirim": "2026-11-21T10:20:48.625Z",
+      "NISN": "0123456789",
+      "NamaSiswa": "Aisyah Putri Ramadhani",
+      "KontakOrtu": "6281298765432",
+      "Modul": "Nilai",
+      "RingkasanPesan": "*SINERGI PAIBP - SDN Harapan Mulia 01*\nAssalamu'alaikum Wr. Wb.\nYth. Bapak/Ibu Wali dari *Aisyah Putri Ramadhani* (Kelas V-A · NISN 0123456789),\n\n*Pembaruan Nilai PAIBP:*\n• Evaluasi: Ulangan Harian 1 (Asmaul Husna)\n• Semester: Ganjil 2026/2027\n• Nilai Diperoleh: *94*\n\n*Ringkasan Perkembangan Ananda:*\n• Rata-rata Nilai PAIBP: 93.0 (2 evaluasi)\n• Rata-rata Setor Hafalan: 94.0 (2 setoran)\n\n*Pesan Guru:* Terus tingkatkan hafalan dan adab belajar.\n\nTerima kasih atas pendampingan belajar ananda di rumah.\nWassalamu'alaikum Wr. Wb.\n— Yusri Nurmalasari, S.Pd.I., M.Pd.",
+      "StatusKirim": "Siap Kirim (WhatsApp Web)",
+      "ModeKirim": "Fallback wa.me (WHATSAPP_API_URL / TOKEN belum diatur)"
+    }
+  ]
+}
